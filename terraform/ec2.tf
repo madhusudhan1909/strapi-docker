@@ -4,7 +4,7 @@ variable "private_key_path" {
 }
 
 resource "aws_security_group" "strapi_sg" {
-  name        = "madhu-security-group"
+  name        = "docker-security-group"
   description = "Security group for Strapi EC2 instance"
 
   ingress {
